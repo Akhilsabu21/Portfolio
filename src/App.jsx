@@ -21,7 +21,7 @@ function App() {
       <div className={`${display ? "w-[250px]" : "hidden"} ${display ? "h-[100vh]" : "hidden"} small lg:hidden h-[100vh]  `}>
         <SmallSideBar setDisplay={setDisplay} display={display} />
       </div>
-      <div className='lg:w-4/5 md:w-full h-[100vh] overflow-y-auto' id='scroll-body'>
+      <div className='lg:w-4/5 md:w-full h-[100vh] overflow-y-auto  overflow-x-hidden' id='scroll-body'>
         <div className='relative parallax' id='home'>
           <Home />
         </div>
