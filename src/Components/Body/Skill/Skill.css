@@ -1,0 +1,11 @@
+#skill{
+    transform: translate3d(0, -100px, 0);
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.aosanimate {
+    transition-delay: 0.1s;
+    transform: translateZ(0) !important;
+    opacity: 1 !important;
+}

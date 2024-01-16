@@ -1,0 +1,15 @@
+.map{
+    filter: grayscale(.2) opacity(0.4)
+}
+#contact{
+    transform: translate(1.5);
+    opacity: 0;
+    transition-duration: .8s;
+    transition-timing-function: ease;
+}
+.aosanimate {
+    transform: translate(1.1);
+    /* transition-delay: 0.1s;
+    transform: translate(0) !important;
+    opacity: 1 !important; */
+}

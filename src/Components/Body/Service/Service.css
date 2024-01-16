@@ -1,0 +1,43 @@
+#sevice{
+    transform: translate3d(0, -100px, 0);
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.aosanimate {
+    transition-delay: 0.1s;
+    transform: translateZ(0) !important;
+    opacity: 1 !important;
+}
+.service-box-left{
+    transform: translate3d(-200px, 0, 0);
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.service-box-right{
+    transform: translate3d(200px, 0, 0);
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
+.skill-border{
+    border: 4px solid rgb(18, 18, 62);
+    transition: .9s;
+}
+.skillBox {
+    transition: transform 0.8s;
+}
+.skillBox:hover .skill-border {
+    transform: rotate(45deg);
+}
+
+.skillBox:hover .skill-border svg {
+    transform: rotate(-45deg);
+    transition: 0.8s;
+}
+.skill-border svg {
+    transition: 0.8s;
+}

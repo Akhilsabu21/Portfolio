@@ -1,0 +1,11 @@
+.parallax {
+  /* The image used */
+  background-image: url("https://img.freepik.com/free-photo/casual-man-browsing-phone-park_23-2147747773.jpg?w=1060&t=st=1704955884~exp=1704956484~hmac=2e79e3292f13e0f6b6cb47c28d58c42feaf0af75b0fc4bbf1827693e11c65ebc");
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
